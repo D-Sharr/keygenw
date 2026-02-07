@@ -144,9 +144,9 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	path := strings.ToLower(r.URL.Path)
 	accountType := "free" // Default
 
-	if strings.Contains(path, "pro") {
+	if strings.Contains(path, "/pro") {
 		accountType = "pro"
-	} else if strings.Contains(path, "free") {
+	} else if strings.Contains(path, "/free") {
 		accountType = "free"
 	}
 
