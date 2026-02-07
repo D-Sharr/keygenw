@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/free",
+            "destination": "/api/handler"
+        },
+        {
+            "source": "/api/pro",
+            "destination": "/api/handler"
+        }
+    ]
+}
