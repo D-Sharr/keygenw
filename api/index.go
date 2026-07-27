@@ -118,7 +118,7 @@ func RegisterWithCloudflare() (*GeneratedConfig, error) {
 	return &GeneratedConfig{
 		Password: privB64,
 		IP:       cfResp.Config.Interface.Addresses.V6,
-		Server:   "162.159.192.1",
+		Server:   "162.159.192.10",
 	}, nil
 }
 
